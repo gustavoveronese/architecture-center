@@ -22,7 +22,7 @@ Azure maintains datacenters in many regions around the world. This infrastructur
 
 ## Azure Site Recovery
 
-[Azure Site Recovery](/azure/site-recovery/) provides a simple way to replicate Azure VMs between regions. It has minimumal management overhead, because you don't need to provision any additional resources in the secondary region. When you enable replication, Site Recovery automatically creates the required resources in the target region, based on the source VM settings. It provides automated continuous replication, and enables you to perform application failover with a single click. You can also run disaster recovery drills by testing failover, without affecting your production workloads or ongoing replication. 
+[Azure Site Recovery](/azure/site-recovery/) provides a simple way to replicate Azure VMs between regions. It has minimum management overhead, because you don't need to provision any additional resources in the secondary region. When you enable replication, Site Recovery automatically creates the required resources in the target region, based on the source VM settings. It provides automated continuous replication, and enables you to perform application failover with a single click. You can also run disaster recovery drills by testing failover, without affecting your production workloads or ongoing replication. 
 
 ## Azure Traffic Manager
 When a region-specific failure occurs, you must redirect traffic to services or deployments in another region. It is most effective to handle this via services such as Azure Traffic Manager, which automates the failover of user traffic to another region if the primary region fails. Understanding the fundamentals of Traffic Manager is important when designing an effective DR strategy.
